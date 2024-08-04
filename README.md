@@ -26,11 +26,17 @@ For this firmware I've enabled several features to try and get the best balance 
 
 ## All the Custom Settings and What They Do:
 First are the custom boot and status screens, which aren't anything functional, but they're fun! Both were custom-created by yours truly! The boot screen is just a simple clean Creality logo with a hotend assembly for some cool _aesthetics_, and the status screen is a 2D representation of the classic Benchy model, probably the most well-known test print of all time. 
+
 ![Boot Screen](/Images/boot_screen.jpg)
+
 ![Status Screen](/Images/stat_screen.jpg)
+
 These were originally created as low resolution images, modified slightly in photoshop to clean up the pixels and then converted to a C++ bitmap using [Marlin's Bitmap Converter](https://marlinfw.org/tools/u8glib/converter.html).
-![Boot Screen Bitmap](/Images/Custom%20Boot%20Screen%202%20inverted.png)
-![Status Screen Bitmap](/Images/2DBenchy.png)
+
+<img src="/Images/Custom%20Boot%20Screen%202%20inverted.png" width="1000"/>
+
+<img src="/Images/2DBenchy.png" width="1000"/>
+
 
 Next is the Bed Tramming Menu! This one just adds a menu which moves the print head over each of the 4 corners of the bed one at a time, allowing you to easily level the bed and dial it in. Prior to this I needed to manually move the print head over the 4 corners, which was much slower and less accurate.
 
